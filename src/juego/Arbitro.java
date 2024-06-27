@@ -46,6 +46,8 @@ public class Arbitro
 		return Math.abs(this.numeracion.getNumero() - numero);
 	}
 
+	
+	// Getters
 	public int getIntentos()
 	{
 		return numeracion.getIntentos();

@@ -5,8 +5,10 @@ import java.util.Scanner;
 
 public class Main 
 {
+	// Scanner global
 	private static Scanner scanner;
 
+	// Constructor principal
 	public static void main(String[] args) throws IOException
 	{
 		scanner = new Scanner(System.in);
@@ -50,6 +52,7 @@ public class Main
 		scanner.close();
 	}
 
+	// Unico metodo para adivinar el numero
 	private static boolean Adivinar()
 	{
 		System.out.println("");
